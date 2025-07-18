@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Yarı saydam arka plan */
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Mavi temalı parlama */
+}
+
+.title {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    color: #00ffff; /* Açık mavi */
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+.section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    color: #00ffff;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    color: #00ffff;
+    font-size: 1.5rem;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #00aaff; /* Daha koyu mavi */
+    transform: translateY(-5px);
+}
+
+.social-links a i {
+    margin-right: 8px;
+}
